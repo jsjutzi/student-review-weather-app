@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+.headerBar {
+    text-align: center;
+    background: linear-gradient(to right, #20002c, #cbb4d4);
+    height: 100px;
+    color: white;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+.header {
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+.Menu{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+#nav {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+#zipCode {
+    width: 100px;
+}
+#forecast {
+    background: linear-gradient(to right, #20002c, #cbb4d4);
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: white;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    height: 300px;
+    -webkit-box-shadow: -6px 0px 20px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 0px 20px -3px rgba(0,0,0,0.75);
+    box-shadow: -6px 0px 20px -3px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    display: none;
+}
+#temp {
+    font-size: 6em;
+    margin-top: 30px;
+}

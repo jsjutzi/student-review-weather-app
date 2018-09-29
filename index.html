@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <meta http-equiv="content-type" content="text/php; charset=utf-8" />
+        <title>Review Project</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type='text/javascript' src='Assets/index.js'></script>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="headerBar">
+                <h1 class='header'>Weather App</h1>
+                <p>Plan ahead with up to date weather forecasts</p>
+            </div>
+
+            <div class="Menu">
+                <div class='input-box'>
+                    <p>Enter Zip Code</p>
+                    <input id="zipCode" type='text' value=''>
+                </div>
+                <ul id="nav"> 
+                    <li class='btn btn-md btn-success current-forecast'>Todays Forecast</li>  
+                </ul> 
+            </div>
+            <div id='forecast'></div>
+            <div onclick='buttonFunction()' id="red-button" class="btn btn-danger btn-md">Hey Button</div>
+        </div>
+    </body>
+
+    <!-- <footer>
+        <div class="Footer">
+            <p><strong class='footer'>Poorly built in 1 hour</strong</p>
+        </div>
+    </footer> -->
+</html>
